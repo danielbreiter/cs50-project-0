@@ -1,0 +1,118 @@
+h3 {
+    color: red;
+    text-align: left;
+    font-family: 'Product Sans', sans-serif
+}
+/* link */
+a:link {
+    color: blue;
+    margin-right: 20px;
+    text-align: right;
+    float: right;
+    font-family: 'Product Sans', sans-serif
+  }
+
+/* mouse over link */
+a:hover {
+    color: hotpink
+ 
+  }
+  
+.form {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)  
+}
+
+#search {
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px; 
+    width: 500px;
+}
+
+div.advanced {
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle
+}
+#searchButton2{
+  cursor:pointer;
+}
+
+#searchButton1{
+  cursor:pointer;
+}
+
+#searchButton3 {
+  background-color: blue;
+  border: none;
+  color: white;
+  font-size: 14px;
+  padding: 10px 24px;
+  border-radius: 12px;
+  margin-left: 590px;
+  font-family: 'Product Sans', sans-serif;
+  cursor:pointer;
+}
+
+#field {
+  margin-left: 20px;
+  width: 500px;
+}
+
+br{
+  clear: left;
+}
+
+label{
+  float: left;
+  width: 200px; 
+}
+
+.forms{
+float:left; /* add this */
+width: 100%; 
+width: 100vw;
+font-family: 'Product Sans', sans-serif
+}
+
+.header{
+  width: 730px;
+  background-color: red
+  }
+
+#wrapper {
+  width: 100%; 
+  width: 100vw;
+  overflow: hidden /* will contain if #first is longer than #second */
+}
+#first {
+    width: 300px;
+    float:left; /* add this */
+    font-family: 'Product Sans', sans-serif
+}
+#second {
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+    text-align: right;
+    font-family: 'Product Sans', sans-serif
+}
+
+#third {
+  border: 1px solid yellow
+}
+
+#find {
+  font-size: 20px;
+  font-family: 'Product Sans', sans-serif;
+}
+
+.searchImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

@@ -5,11 +5,25 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <a href="https://cs50.harvard.edu/">CS50 Website</a>!
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
-
+        <a href="image.html" style="float: right;">Image Search</a> 
+        <a href="advanced.html" style="float: right;">Advanced Search</a>    
+        <div id="wrapper"> 
+            <div class="form">                 
+                <img class="searchImage"  src="Search.png"   id="searchImage"> <br/><br/><br/>           
+                <form action="https://www.google.com/search">
+                    <input type="text" name="q" id="search">
+                    <br />
+                    <br />
+                    <input type="submit" value="Google Search" id="searchButton1" >   
+                    <input id="searchButton2" value="I'm feeling lucky!" name="btnI" type="submit" >             
+                </form>           
+            </div>       
+            <script>    
+                document.getElementById('search').style.height="1px";
+                document.getElementById('search').style.fontSize="12pt";
+                document.getElementById('searchButton1').style.fontSize="22pt";
+                document.getElementById('searchButton2').style.fontSize="22pt";
+            </script>
+        </div>
     </body>
 </html>
